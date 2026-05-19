@@ -83,11 +83,11 @@ Run `ipconfig /all` and verify that DC-1’s private IP address is configured as
 <img width="2056" alt="Screenshot 2024-10-17 at 1 47 37 PM" src="https://github.com/user-attachments/assets/37512fdc-d011-4964-a210-29419f4695c0">
 </p>
 <p>
-Open Server Manager
+Open Server Manager and install the Active Directory Domain Services (AD DS) role through the “Add Roles and Features” wizard.
 
-Click "Add roles and features" and install "Active Directory Domain Services" and let DC-1 restart.
+After installation, promote DC-1 to a Domain Controller by configuring a new Active Directory forest and specifying a custom domain name (e.g., mydomain.com).
 
-Click on the flag icon on the top right and click "Promote this server to a Domain Controller," setting up a new forest with the domain name (e.g., mydomain.com). Then let it restart again.
+Restart the server to complete the Active Directory deployment and domain controller configuration.
 </p>
 <br />
 
