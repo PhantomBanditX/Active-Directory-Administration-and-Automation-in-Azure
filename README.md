@@ -2,8 +2,11 @@
 
 <p align="center">
 <img width="700" alt="Image" src="https://github.com/user-attachments/assets/75e16b51-9a24-41b6-90a0-f4eba501282d" />
-
 </p>
+
+<h1>Azure Active Directory Administration and Automation Lab</h1>
+This project showcases the implementation of an Active Directory environment within Azure, focusing on core administrative and security tasks such as creating and managing user accounts, configuring Group Policy Objects (GPOs), and streamlining account provisioning through PowerShell automation. The lab also covers the creation of shared network resources with customized access permissions, along with monitoring and analyzing system activity through Event Viewer to support auditing, visibility, and troubleshooting operations. <br />
+
 
 <h2>Environments and Tools</h2>
 
