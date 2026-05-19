@@ -46,7 +46,7 @@ Ensure both virtual machines are configured within the same Resource Group and V
 <img width="2056" alt="Screenshot 2024-10-17 at 12 54 33 PM" src="https://github.com/user-attachments/assets/219f8a01-4047-4aa9-819b-bb77b5a2adf2">
 </p>
 <p>
-Set the Private IP address for DC-1 to static.
+Configure a static private IP address for DC-1.
 </p>
 <br />
 
