@@ -1,7 +1,8 @@
 # Active Directory Administration and-Automation in Azure
 
 <p align="center">
-<img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
+<img width="700" alt="Image" src="https://github.com/user-attachments/assets/75e16b51-9a24-41b6-90a0-f4eba501282d" />
+
 </p>
 
 <h2>Environments and Tools</h2>
