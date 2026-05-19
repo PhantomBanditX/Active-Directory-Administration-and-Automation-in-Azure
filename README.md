@@ -24,7 +24,7 @@ This project demonstrates the deployment and administration of an Active Directo
 - PowerShell ISE for automation
 - Event Viewer for log monitoring
 
-<h2>Step 1: Deploy Azure Resources</h2>
+<h2>## Infrastructure Deployment</h2>
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 12 48 31 PM" src="https://github.com/user-attachments/assets/69be9975-7170-4d72-beac-798495852c97">
