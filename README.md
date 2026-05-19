@@ -5,6 +5,10 @@
 </p>
 
 <p align="center"> <h1>Enterprise Active Directory management in Azure using PowerShell and Group Policy</h1> </p>
+</p>
+
+<br />
+
 This project demonstrates the deployment and administration of an Active Directory environment in Azure, including user and group management, Group Policy configuration, PowerShell automation, secure network file sharing, and system monitoring through Event Viewer. <br />
 
 ## Project Objectives
