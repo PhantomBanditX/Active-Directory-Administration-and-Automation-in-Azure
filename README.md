@@ -1,4 +1,4 @@
-# Active Directory Administration and-Automation in Azure
+# Active Directory Administration and Automation in Azure
 
 <p align="center">
 <img width="700" alt="Image" src="https://github.com/user-attachments/assets/75e16b51-9a24-41b6-90a0-f4eba501282d" />
