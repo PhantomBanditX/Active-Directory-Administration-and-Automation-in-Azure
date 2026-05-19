@@ -34,11 +34,11 @@ This project demonstrates the deployment and administration of an Active Directo
 <img width="2056" alt="Screenshot 2024-10-17 at 12 48 31 PM" src="https://github.com/user-attachments/assets/69be9975-7170-4d72-beac-798495852c97">
 </p>
 <p>
-Create a Windows Server 2022 VM for the Domain Controller (DC-1).
+Deploy a Windows Server 2022 virtual machine for the Domain Controller (DC-1).
 
-Create a Windows 10 VM for the Client machine (Client-1).
+Deploy a Windows 11 virtual machine for the client workstation (Client-1).
 
-Ensure both machines are in the same Resource Group and Virtual Network (Vnet).
+Ensure both virtual machines are configured within the same Resource Group and Virtual Network (VNet).
 </p>
 <br />
 
