@@ -13,12 +13,12 @@ This project demonstrates the deployment and administration of an Active Directo
 
 ## Project Objectives
 
-- Microsoft Azure Virtual Machines
-- Remote Desktop Protocol (RDP)
-- Windows Server 2022 Domain Controller
-- Windows 10 Client Machine
-- PowerShell ISE Automation
-- Event Viewer Log Monitoring
+- Deploy an enterprise Active Directory environment in Microsoft Azure
+- Configure Organizational Units (OUs) and Group Policy Objects (GPOs)
+- Automate administrative tasks using PowerShell
+- Implement secure SMB file sharing and access controls
+- Configure domain-joined client systems
+- Monitor authentication and security events using Event Viewer
 
 ## Technologies Used
 - Microsoft Azure (Virtual Machines)
@@ -349,7 +349,5 @@ Use Event IDs (e.g., 4624 for logon and 4625 for failed logon) to filter and ide
 
 ## Key Takeaways
 
-<p>
-This lab provided comprehensive hands-on experience with deploying and managing Active Directory in an Azure environment. We configured key aspects such as user accounts, Group Policy, and file shares, alongside setting and testing access permissions. Automation with PowerShell enabled bulk user creation, and Event Viewer was utilized to monitor security and troubleshooting logs. Overall, this lab demonstrated practical skills essential for managing an Active Directory infrastructure and ensuring secure, organized user access.
-</p>
-<br />
+This lab provided hands-on experience deploying and administering an enterprise Active Directory environment within Microsoft Azure. Core administrative tasks included Active Directory deployment, Group Policy management, PowerShell automation, secure file sharing, and security log monitoring. The project demonstrates foundational cloud administration, identity management, and enterprise security operations skills applicable to real-world IT and cybersecurity environments.
+
