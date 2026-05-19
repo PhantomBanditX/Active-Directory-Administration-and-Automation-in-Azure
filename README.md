@@ -95,7 +95,7 @@ Restart the server to complete the Active Directory deployment and domain contro
 <img width="2056" alt="Screenshot 2024-10-17 at 1 45 44 PM" src="https://github.com/user-attachments/assets/a4d48875-7934-438e-b5b3-bcfa29d7c484">
 </p>
 <p>
-Now log into DC-1 again, but this time as mydomain.com\[whatever you set your username for the Domain Controller VM in Azure].
+Authenticate to the domain using the newly configured administrative account.
 </p>
 <br />
 
