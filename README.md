@@ -54,7 +54,7 @@ Configure a static private IP address for DC-1.
 <img width="2056" alt="Screenshot 2024-10-17 at 1 14 36 PM" src="https://github.com/user-attachments/assets/338d0cd6-be64-4ed0-9578-de491d6bb6be">
 </p>
 <p>
-Set Client-1's DNS settings to DC-1's now static Private IP address, then restart Client-1 VM so the new settings will be enabled.
+Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine to apply the changes.
 </p>
 <br />
 
