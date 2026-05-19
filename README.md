@@ -70,7 +70,7 @@ Then, run "ipconfig /all" and verify that DC-1's Private IP shows up under "DNS 
 </p>
 <br />
 
-<h2>Step 2: Install Active Directory</h2>
+## Active Directory Configuration
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 47 37 PM" src="https://github.com/user-attachments/assets/37512fdc-d011-4964-a210-29419f4695c0">
@@ -92,7 +92,7 @@ Now log into DC-1 again, but this time as mydomain.com\[whatever you set your us
 </p>
 <br />
 
-<h2>Step 3: Create Users and Organizational Units</h2>
+## Organizational Unit and User Management
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 52 29 PM" src="https://github.com/user-attachments/assets/90c55542-6016-4cd3-9c98-e3495f84f72f">
@@ -125,7 +125,7 @@ Log in as cyberlab.com\jane_admin for further administration.
 </p>
 <br />
 
-<h2>Step 4: Join the Client Machine to the Domain</h2>
+## Group Policy Administration
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 2 01 16 PM" src="https://github.com/user-attachments/assets/f7ad8cc4-cbb7-4c41-b2d5-7bcd7b2e3c37">
@@ -152,7 +152,7 @@ In DC-1, verify the successful domain join in ADUC by confirming Client-1 appear
 </p>
 <br />
 
-<h2>Step 5: Automate User Account Creation with PowerShell</h2>
+## PowerShell Automation
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 2 38 51 PM" src="https://github.com/user-attachments/assets/73d96625-1fd1-48df-a14b-3955517c2832">
@@ -178,7 +178,7 @@ Test one of the newly created accounts by logging into Client-1 (mydomain.com\[r
 </p>
 <br />
 
-<h2>Step 6: Group Policy and Managing Accounts</h2>
+## Secure File Share Configuration
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 07 21 PM" src="https://github.com/user-attachments/assets/0d730396-b70d-47a5-92af-479c447065ab">
@@ -229,7 +229,7 @@ We will log into that account again but this time with the right password and ve
 <br />
 
 
-<h2>Step 7: File Shares and Permissions</h2>
+## System Monitoring and Log Analysis
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 41 53 PM" src="https://github.com/user-attachments/assets/f4b59ba1-f617-4fc8-95ab-6e867c7e8f9f">
@@ -317,7 +317,7 @@ Re-log into Client-1 and confirm access to the accounting folder now works.
 </p>
 <br />
 
-<h2>Step 8: Viewing Logs in Event Viewer</h2>
+## Security and Administrative Controls
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 27 14 PM" src="https://github.com/user-attachments/assets/b90bfe3e-9f1a-49f6-8515-5ca484a7e074">
@@ -343,7 +343,7 @@ Use Event IDs (e.g., 4624 for logon and 4625 for failed logon) to filter and ide
 </p>
 <br />
 
-<h2>Conclusion</h2>
+## Key Takeaways
 
 <p>
 This lab provided comprehensive hands-on experience with deploying and managing Active Directory in an Azure environment. We configured key aspects such as user accounts, Group Policy, and file shares, alongside setting and testing access permissions. Automation with PowerShell enabled bulk user creation, and Event Viewer was utilized to monitor security and troubleshooting logs. Overall, this lab demonstrated practical skills essential for managing an Active Directory infrastructure and ensuring secure, organized user access.
