@@ -5,7 +5,7 @@
 </p>
 
 <p align="center"> <h1>Enterprise Active Directory management in Azure with PowerShell and Group Policy</h1> </p>
-This project showcases the implementation of an Active Directory environment within Azure, focusing on core administrative and security tasks such as creating and managing user accounts, configuring Group Policy Objects (GPOs), and streamlining account provisioning through PowerShell automation. The lab also covers the creation of shared network resources with customized access permissions, along with monitoring and analyzing system activity through Event Viewer to support auditing, visibility, and troubleshooting operations. <br />
+This project demonstrates the deployment and administration of an Active Directory environment in Azure, including user and group management, Group Policy configuration, PowerShell automation, secure network file sharing, and system monitoring through Event Viewer. <br />
 
 
 <h2>Environments and Tools</h2>
