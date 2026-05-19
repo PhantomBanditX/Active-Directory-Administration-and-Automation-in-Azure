@@ -7,9 +7,16 @@
 <p align="center"> <h1>Enterprise Active Directory management in Azure using PowerShell and Group Policy</h1> </p>
 This project demonstrates the deployment and administration of an Active Directory environment in Azure, including user and group management, Group Policy configuration, PowerShell automation, secure network file sharing, and system monitoring through Event Viewer. <br />
 
+## Project Objectives
 
-<h2>Technologies Used</h2>
+- Microsoft Azure Virtual Machines
+- Remote Desktop Protocol (RDP)
+- Windows Server 2022 Domain Controller
+- Windows 10 Client Machine
+- PowerShell ISE Automation
+- Event Viewer Log Monitoring
 
+## Technologies Used
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop Protocol (RDP)
 - Windows Server 2022 (Domain Controller)
