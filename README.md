@@ -8,7 +8,7 @@
 This project demonstrates the deployment and administration of an Active Directory environment in Azure, including user and group management, Group Policy configuration, PowerShell automation, secure network file sharing, and system monitoring through Event Viewer. <br />
 
 
-<h2>Environments and Tools</h2>
+<h2>Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop Protocol (RDP)
