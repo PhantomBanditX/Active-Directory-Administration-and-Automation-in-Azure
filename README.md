@@ -62,15 +62,18 @@ Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine
 <img width="2056" alt="Screenshot 2024-10-17 at 1 30 22 PM" src="https://github.com/user-attachments/assets/fdda1c54-a7bb-4042-99ca-5de758d83e0d">
 </p>
 <p>
-Log into Client-1 through Remote Desktop and run the "ping" DC-1's Private IP address in PowerShell to confirm connectivity.
-</p>
+Validate network connectivity between Client-1 and DC-1 using PowerShell commands such as:
+
+- ping
+- ipconfig /all
+
 <br />
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 31 28 PM" src="https://github.com/user-attachments/assets/274fc3fc-b96c-45fd-b1d5-494072552416">
 </p>
 <p>
-Then, run "ipconfig /all" and verify that DC-1's Private IP shows up under "DNS Servers."
+Run `ipconfig /all` and verify that DC-1’s private IP address is configured as the active DNS server.
 </p>
 <br />
 
