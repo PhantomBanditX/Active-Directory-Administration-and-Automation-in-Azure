@@ -24,7 +24,7 @@ This project demonstrates the deployment and administration of an Active Directo
 - PowerShell ISE for automation
 - Event Viewer for log monitoring
 
-<h2>## Infrastructure Deployment</h2>
+## Infrastructure Deployment
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 12 48 31 PM" src="https://github.com/user-attachments/assets/69be9975-7170-4d72-beac-798495852c97">
