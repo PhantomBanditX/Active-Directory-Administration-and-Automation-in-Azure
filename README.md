@@ -173,7 +173,8 @@ Successfully authenticated to the previously locked domain user account using th
 </p>
 
 ## Secure File Share Configuration
-Log into ``DC-1`` as jane_admin and create the following folders on the C: drive:
+Log into ``DC-1`` as ``jane_admin`` and create the following folders on the C: drive:
+
 - read-access
 - write-access
 - no-access
