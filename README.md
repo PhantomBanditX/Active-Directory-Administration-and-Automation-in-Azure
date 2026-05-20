@@ -31,110 +31,85 @@ This project demonstrates the deployment and administration of an Active Directo
 ## Infrastructure Deployment
 
 <p>
+  
+  Deploy a Windows Server 2022 virtual machine for the ``Domain Controller (DC-1).``
+  
+  Deploy a Windows 11 virtual machine for the client workstation ``(Client-1).``
+
+  Ensure both virtual machines are configured within the same Resource Group and Virtual Network (VNet).
+  <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 12 48 31 PM" src="https://github.com/user-attachments/assets/69be9975-7170-4d72-beac-798495852c97">
 </p>
 <p>
-Deploy a Windows Server 2022 virtual machine for the Domain Controller (DC-1).
 
-Deploy a Windows 11 virtual machine for the client workstation (Client-1).
-
-Ensure both virtual machines are configured within the same Resource Group and Virtual Network (VNet).
-</p>
-<br />
-
+  Configure a static private IP address for DC-1.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 12 54 33 PM" src="https://github.com/user-attachments/assets/219f8a01-4047-4aa9-819b-bb77b5a2adf2">
 </p>
 <p>
-Configure a static private IP address for DC-1.
-</p>
-<br />
+Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine to apply the changes.
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 14 36 PM" src="https://github.com/user-attachments/assets/338d0cd6-be64-4ed0-9578-de491d6bb6be">
-</p>
-<p>
-Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine to apply the changes.
-</p>
-<br />
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 30 22 PM" src="https://github.com/user-attachments/assets/fdda1c54-a7bb-4042-99ca-5de758d83e0d">
 </p>
 <p>
 Validate network connectivity between Client-1 and DC-1 using PowerShell commands such as:
 
 - ping
 - ipconfig /all
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 1 30 22 PM" src="https://github.com/user-attachments/assets/fdda1c54-a7bb-4042-99ca-5de758d83e0d">
+</p>
 
-<br />
-
+Run `ipconfig /all` and verify that DC-1’s private IP address is configured as the active DNS server.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 31 28 PM" src="https://github.com/user-attachments/assets/274fc3fc-b96c-45fd-b1d5-494072552416">
-</p>
-<p>
-Run `ipconfig /all` and verify that DC-1’s private IP address is configured as the active DNS server.
 
 <br />
 
 ## Active Directory Configuration
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 47 37 PM" src="https://github.com/user-attachments/assets/37512fdc-d011-4964-a210-29419f4695c0">
-</p>
-<p>
 Open Server Manager and install the Active Directory Domain Services (AD DS) role through the “Add Roles and Features” wizard.
 
 After installation, promote DC-1 to a Domain Controller by configuring a new Active Directory forest and specifying a custom domain name (e.g., mydomain.com).
 
 Restart the server to complete the Active Directory deployment and domain controller configuration.
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 1 47 37 PM" src="https://github.com/user-attachments/assets/37512fdc-d011-4964-a210-29419f4695c0">
 </p>
-<br />
 
+Authenticate to the domain using the newly configured administrative account.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 45 44 PM" src="https://github.com/user-attachments/assets/a4d48875-7934-438e-b5b3-bcfa29d7c484">
-</p>
-<p>
-Authenticate to the domain using the newly configured administrative account.
 
 <br />
 
 ## Organizational Unit and User Management
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 52 29 PM" src="https://github.com/user-attachments/assets/90c55542-6016-4cd3-9c98-e3495f84f72f">
-</p>
-<p>
 Create Organizational Units (OUs) for administrative organization, including:
 
 - _EMPLOYEES
 - _ADMINS
 - _CLIENTS
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 1 52 29 PM" src="https://github.com/user-attachments/assets/90c55542-6016-4cd3-9c98-e3495f84f72f">
+</p>
 
-<br />
-
+Create a dedicated administrative user account named `jane_admin`.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 54 32 PM" src="https://github.com/user-attachments/assets/4e87cb11-9589-40fb-b589-e77add4a41a1">
-</p>
-<p>
-Create a dedicated administrative user account named `jane_admin`.
+
 <br />
 
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 56 41 PM" src="https://github.com/user-attachments/assets/b945aa4d-879b-4b71-9061-88b14566e20f">
-</p>
 <p>
   
 Assign the account to the ``Domain Admins`` security group.
-
-</p>
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 1 56 41 PM" src="https://github.com/user-attachments/assets/b945aa4d-879b-4b71-9061-88b14566e20f">
 <br />
 
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 59 09 PM" src="https://github.com/user-attachments/assets/9158095d-ad1e-4086-9121-e2af5cf86103">
-</p>
-<p>
 Authenticate using the administrative account for continued domain administration tasks.
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 1 59 09 PM" src="https://github.com/user-attachments/assets/9158095d-ad1e-4086-9121-e2af5cf86103">
 
 <br />
 
