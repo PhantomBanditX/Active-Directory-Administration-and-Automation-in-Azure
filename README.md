@@ -203,57 +203,46 @@ On `Client-1`, log in as a standard domain user (e.g., `MYDOMAIN\john_employee`)
 <br />
 <p>
 
-<img width="2056" alt="Screenshot 2024-10-17 at 3 47 53 PM" src="https://github.com/user-attachments/assets/cc69b911-e144-4ec3-854d-8430c913c06d">
-</p>
-<p>
 Now we can test access to each folder:
 
 - read-access: User should be able to view files but not modify.
 - write-access: User should be able to both view and modify files.
 - no-access: User should be denied access.
-</p>
-<br />
+<img width="2056" alt="Screenshot 2024-10-17 at 3 47 53 PM" src="https://github.com/user-attachments/assets/cc69b911-e144-4ec3-854d-8430c913c06d">
 
+<br />
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 50 15 PM" src="https://github.com/user-attachments/assets/4eb4eb5f-f206-4048-a330-d85c3f0ce178">
-</p>
-<p>
+
 On DC-1, create a Security Group named ACCOUNTANTS in ADUC.
-</p>
-<br />
+<img width="2056" alt="Screenshot 2024-10-17 at 3 50 15 PM" src="https://github.com/user-attachments/assets/4eb4eb5f-f206-4048-a330-d85c3f0ce178">
 
+<br />
 <p>
+
+Assign Read/Write permissions to the ACCOUNTANTS group on the accounting folder.  
 <img width="2056" alt="Screenshot 2024-10-17 at 3 51 42 PM" src="https://github.com/user-attachments/assets/f2993713-dd08-4c26-804d-ffebfe3ca24d">
-</p>
-<p>
-Assign Read/Write permissions to the ACCOUNTANTS group on the accounting folder.
-</p>
-<br />
 
+<br />
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 52 33 PM" src="https://github.com/user-attachments/assets/c51f377a-8ae6-4613-88b0-8753c8cbc57d">
-</p>
-<p>
+
 On Client-1, attempt to access the accounting folder as john_employee (should fail).
-</p>
-<br />
+<img width="2056" alt="Screenshot 2024-10-17 at 3 52 33 PM" src="https://github.com/user-attachments/assets/c51f377a-8ae6-4613-88b0-8753c8cbc57d">
 
+<br />
 <p>
+
+Add john_employee to the ACCOUNTANTS security group.  
 <img width="2056" alt="Screenshot 2024-10-17 at 3 53 05 PM" src="https://github.com/user-attachments/assets/385504ce-02b4-47f0-8dc9-8d5253fecdcb">
-</p>
-<p>
-Add john_employee to the ACCOUNTANTS security group.
-</p>
-<br />
 
+<br />
 <p>
+
+Re-log into Client-1 and confirm access to the accounting folder now works.  
 <img width="2056" alt="Screenshot 2024-10-17 at 3 54 47 PM" src="https://github.com/user-attachments/assets/c7f94971-d415-485b-9612-c3ff0d24133b">
-</p>
-<p>
-Re-log into Client-1 and confirm access to the accounting folder now works.
-</p>
-<br />
 
+<br />
+<p>
+  
 ## PowerShell Automation
 
 <p>
