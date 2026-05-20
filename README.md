@@ -156,14 +156,14 @@ Configure ``Client-1`` to join the Active Directory domain using the domain name
 <p>
 Authenticate using Domain Administrator credentials to authorize the domain join operation.
 
-Restart Client-1 to apply the domain membership configuration changes..
+Restart ``Client-1`` to apply the domain membership configuration changes..
 </p>
 <br />
 
 <p>
 </p><img width="2056" alt="Screenshot 2024-10-17 at 2 08 27 PM" src="https://github.com/user-attachments/assets/fc670165-b0c4-41f1-970f-76adb92f9f9e">
 <p>
-In DC-1, verify the successful domain join in ADUC by confirming Client-1 appears in the Computers container.
+Verify successful domain enrollment through Active Directory Users and Computers (ADUC).
 </p>
 <br />
 
