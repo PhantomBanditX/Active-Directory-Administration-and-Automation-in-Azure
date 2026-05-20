@@ -124,7 +124,9 @@ Create a dedicated administrative user account named `jane_admin`.
 <img width="2056" alt="Screenshot 2024-10-17 at 1 56 41 PM" src="https://github.com/user-attachments/assets/b945aa4d-879b-4b71-9061-88b14566e20f">
 </p>
 <p>
-Now assign the user to the Domain Admins group.
+  
+Assign the account to the ``Domain Admins`` security group.
+
 </p>
 <br />
 
@@ -132,8 +134,8 @@ Now assign the user to the Domain Admins group.
 <img width="2056" alt="Screenshot 2024-10-17 at 1 59 09 PM" src="https://github.com/user-attachments/assets/9158095d-ad1e-4086-9121-e2af5cf86103">
 </p>
 <p>
-Log in as cyberlab.com\jane_admin for further administration.
-</p>
+Authenticate using the administrative account for continued domain administration tasks.
+
 <br />
 
 ## Group Policy Administration
@@ -142,7 +144,9 @@ Log in as cyberlab.com\jane_admin for further administration.
 <img width="2056" alt="Screenshot 2024-10-17 at 2 01 16 PM" src="https://github.com/user-attachments/assets/f7ad8cc4-cbb7-4c41-b2d5-7bcd7b2e3c37">
 </p>
 <p>
-In Client-1, go to your settings "About" section and click "Rename this PC (advanced)" then "Change" then add the name of your Domain to join this Client to the Domain. 
+  
+Configure ``Client-1`` to join the Active Directory domain using the domain name configured during the Active Directory deployment. 
+  
 </p>
 <br />
 
@@ -150,9 +154,9 @@ In Client-1, go to your settings "About" section and click "Rename this PC (adva
 <img width="2056" alt="Screenshot 2024-10-17 at 2 02 43 PM" src="https://github.com/user-attachments/assets/8b14a2eb-120f-4086-b401-68671b5f46f0">
 </p>
 <p>
-It will then ask for you to sign in as a Domain Admin to allow this. 
+Authenticate using Domain Administrator credentials to authorize the domain join operation.
 
-Then allow your VM to restart.
+Restart Client-1 to apply the domain membership configuration changes..
 </p>
 <br />
 
