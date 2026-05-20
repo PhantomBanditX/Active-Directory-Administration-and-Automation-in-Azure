@@ -74,7 +74,7 @@ Validate network connectivity between Client-1 and DC-1 using PowerShell command
 </p>
 <p>
 Run `ipconfig /all` and verify that DC-1’s private IP address is configured as the active DNS server.
-</p>
+
 <br />
 
 ## Active Directory Configuration
@@ -96,7 +96,7 @@ Restart the server to complete the Active Directory deployment and domain contro
 </p>
 <p>
 Authenticate to the domain using the newly configured administrative account.
-</p>
+
 <br />
 
 ## Organizational Unit and User Management
@@ -105,15 +105,19 @@ Authenticate to the domain using the newly configured administrative account.
 <img width="2056" alt="Screenshot 2024-10-17 at 1 52 29 PM" src="https://github.com/user-attachments/assets/90c55542-6016-4cd3-9c98-e3495f84f72f">
 </p>
 <p>
-Using Active Directory Users and Computers (ADUC), create three OUs: _EMPLOYEES, _ADMINS, and _CLIENTS.
-</p>
+Create Organizational Units (OUs) for administrative organization, including:
+
+- _EMPLOYEES
+- _ADMINS
+- _CLIENTS
+
 <br />
 
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 54 32 PM" src="https://github.com/user-attachments/assets/4e87cb11-9589-40fb-b589-e77add4a41a1">
 </p>
 <p>
-Create a new user so we can make a Domain Admin account, "jane_admin."
+Create a dedicated administrative user account named `jane_admin`.
 <br />
 
 <p>
