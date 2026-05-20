@@ -270,34 +270,40 @@ Validate successful account provisioning by authenticating to `Client-1` using a
 <br />
 <p>
 
-## System Monitoring and Log Analysis
-
-
 ## Security and Administrative Controls
+- Implemented access control through Active Directory security groups, NTFS permissions, and Group Policy enforcement to support least-privilege administrative practices within the domain environment.
 
+- Validated authentication security controls through Account Lockout Policy configuration and failed logon monitoring.
+
+- Monitored authentication and administrative activity using Windows Event Viewer security auditing logs.
+
+## System Monitoring and Log Analysis
+Launch Event Viewer on `Client-1` by opening `eventvwr.msc` with administrative privileges to monitor authentication activity and security auditing logs.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 27 14 PM" src="https://github.com/user-attachments/assets/b90bfe3e-9f1a-49f6-8515-5ca484a7e074">
-</p>
-<p>
-Search for eventvwr.msc on Client-1 and run as administrator
-</p>
-<br />
 
+<br />
+<p>
+
+Navigate to `Windows Logs > Security` within Event Viewer to review domain authentication and security auditing events.
+
+Analyze security logs for:
+
+- Successful and failed authentication attempts
+- Group Policy processing events
+- Network logon activity
+
+Use Event IDs such as:
+
+- `4624` — Successful Logon
+- `4625` — Failed Logon
+
+Filter and analyze specific authentication events to support troubleshooting and security monitoring activities.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 28 31 PM" src="https://github.com/user-attachments/assets/0c144f09-1ade-49fe-b1d2-ed3c715fa07e">
-</p>
-<p>
-Navigate to Windows Logs > Security.
 
-Here, we can view logs for:
-
-- Successful/failed logon attempts.
-- Group Policy application events.
-- Network logon attempts.
-
-Use Event IDs (e.g., 4624 for logon and 4625 for failed logon) to filter and identify specific events.
-</p>
 <br />
+<p>
 
 ## Key Takeaways
 
