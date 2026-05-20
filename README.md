@@ -24,9 +24,12 @@ This project demonstrates the deployment and administration of an Active Directo
 - Microsoft Azure (Virtual Machines)
 - Remote Desktop Protocol (RDP)
 - Windows Server 2022 (Domain Controller)
-- Windows 10 (Client)
+- NTFS & SMB Permissions
+- Windows 11 (Client)
 - PowerShell ISE for automation
-- Event Viewer for log monitoring
+- Group Policy Management
+- Windows Event Viewer for log monitoring
+- Active Directory Domain Services (AD DS)
 
 ## Infrastructure Deployment
 
