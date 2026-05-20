@@ -166,7 +166,7 @@ Located the locked domain user account in Active Directory Users and Computers o
 <br />
 <p>
 
-Successfully authenticated to the previously locked domain user account using the correct credentials, confirming that the account lockout had been removed and access was restored.
+Verified restored authentication access after unlocking the domain account.
 </p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 19 20 PM" src="https://github.com/user-attachments/assets/2532a9f6-40ac-47f5-ac1c-1dd92f5b75ed">
 
@@ -271,7 +271,7 @@ Re-log into `Client-1` and confirm access to the accounting folder now works.
 <br />
 <p>
   
-## Security and Administrative Controls
+## Security Hardening and Administrative Controls
 - Implemented access control through Active Directory security groups, NTFS permissions, and Group Policy enforcement to support least-privilege administrative practices within the domain environment.
 
 - Validated authentication security controls through Account Lockout Policy configuration and failed logon monitoring.
