@@ -114,32 +114,18 @@ Authenticate using the administrative account for continued domain administratio
 <br />
 
 ## Group Policy Administration
-
+Navigate to the Client-1 system settings and open “Rename this PC (advanced)” to begin the Active Directory domain join process.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 2 01 16 PM" src="https://github.com/user-attachments/assets/f7ad8cc4-cbb7-4c41-b2d5-7bcd7b2e3c37">
-</p>
-<p>
-  
-Configure ``Client-1`` to join the Active Directory domain using the domain name configured during the Active Directory deployment. 
-  
-</p>
 <br />
+  
+Configure ``Client-1`` to join the Active Directory domain using the domain name configured during the Active Directory deployment.
 
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 02 43 PM" src="https://github.com/user-attachments/assets/8b14a2eb-120f-4086-b401-68671b5f46f0">
-</p>
-<p>
 Authenticate using Domain Administrator credentials to authorize the domain join operation.
 
-Restart ``Client-1`` to apply the domain membership configuration changes..
-</p>
-<br />
+Restart ``Client-1`` to apply the domain membership configuration changes.
 
-<p>
-</p><img width="2056" alt="Screenshot 2024-10-17 at 2 08 27 PM" src="https://github.com/user-attachments/assets/fc670165-b0c4-41f1-970f-76adb92f9f9e">
-<p>
-Verify successful domain enrollment through Active Directory Users and Computers (ADUC).
-</p>
+<img width="2056" alt="Screenshot 2024-10-17 at 2 02 43 PM" src="https://github.com/user-attachments/assets/8b14a2eb-120f-4086-b401-68671b5f46f0">
 <br />
 
 ## Secure File Share Configuration
