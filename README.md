@@ -181,27 +181,28 @@ Log into ``DC-1`` as ``jane_admin`` and create the following folders on the C: d
 - accounting
 <img width="2056" alt="Screenshot 2024-10-17 at 3 41 53 PM" src="https://github.com/user-attachments/assets/f4b59ba1-f617-4fc8-95ab-6e867c7e8f9f">
 
+<br />
+
+<p>
+  
 Set Permissions on Folders:
+- For read-access: assign Domain Users the Read permission.
+
+- For write-access: assign Domain Users the Read/Write permission.
+
+- For no-access: assign Domain Admins the Read/Write permission.
 <img width="2056" alt="Screenshot 2024-10-17 at 3 43 10 PM" src="https://github.com/user-attachments/assets/4aa5e84c-badb-4860-aef6-796802ba3f89">
-</p>  
-<p>
-For read-access: assign Domain Users the Read permission.
 
-For write-access: assign Domain Users the Read/Write permission.
-
-For no-access: assign Domain Admins the Read/Write permission.
-</p>
 <br />
 
 <p>
+
+On `Client-1`, log in as a standard domain user (e.g., `MYDOMAIN\john_employee`), open the Run dialog, and enter `\\DC-1` to access the shared folders configured on the domain controller.
 <img width="2056" alt="Screenshot 2024-10-17 at 3 45 59 PM" src="https://github.com/user-attachments/assets/bf446b8b-c257-462f-845b-006ba4ac11fa">
-</p>
-<p>
-On Client-1, log in as a normal user (e.g., mydomain.com\john_employee), open the Run dialog and type \\DC-1 to access the shared folders.
-</p>
-<br />
 
+<br />
 <p>
+
 <img width="2056" alt="Screenshot 2024-10-17 at 3 47 53 PM" src="https://github.com/user-attachments/assets/cc69b911-e144-4ec3-854d-8430c913c06d">
 </p>
 <p>
