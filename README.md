@@ -42,7 +42,7 @@ This project demonstrates the deployment and administration of an Active Directo
 </p>
 <p>
 
-  Configure a static private IP address for DC-1.
+  Configure a static private IP address for ``DC-1``.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 12 54 33 PM" src="https://github.com/user-attachments/assets/219f8a01-4047-4aa9-819b-bb77b5a2adf2">
 </p>
@@ -61,7 +61,7 @@ Validate network connectivity between Client-1 and DC-1 using PowerShell command
 <img width="2056" alt="Screenshot 2024-10-17 at 1 30 22 PM" src="https://github.com/user-attachments/assets/fdda1c54-a7bb-4042-99ca-5de758d83e0d">
 </p>
 
-Run `ipconfig /all` and verify that DC-1’s private IP address is configured as the active DNS server.
+Run `ipconfig /all` and verify that ``DC-1’s`` private IP address is configured as the active DNS server.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 1 31 28 PM" src="https://github.com/user-attachments/assets/274fc3fc-b96c-45fd-b1d5-494072552416">
 
@@ -70,7 +70,7 @@ Run `ipconfig /all` and verify that DC-1’s private IP address is configured as
 ## Active Directory Configuration
 Open Server Manager and install the Active Directory Domain Services (AD DS) role through the “Add Roles and Features” wizard.
 
-After installation, promote DC-1 to a Domain Controller by configuring a new Active Directory forest and specifying a custom domain name (e.g., mydomain.com).
+After installation, promote ``DC-1`` to a Domain Controller by configuring a new Active Directory forest and specifying a custom domain name (e.g., mydomain.com).
 
 Restart the server to complete the Active Directory deployment and domain controller configuration.
 <p>
@@ -114,7 +114,7 @@ Authenticate using the administrative account for continued domain administratio
 <br />
 
 ## Group Policy Administration
-Navigate to the Client-1 system settings and open “Rename this PC (advanced)” to begin the Active Directory domain join process.
+Navigate to the ``Client-1`` system settings and open “Rename this PC (advanced)” to begin the Active Directory domain join process.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 2 01 16 PM" src="https://github.com/user-attachments/assets/f7ad8cc4-cbb7-4c41-b2d5-7bcd7b2e3c37">
 <br />
@@ -130,51 +130,47 @@ Restart ``Client-1`` to apply the domain membership configuration changes.
 <br />
 <p>
   
-Type gpmc.msc in Search Bar to open the Group Policy Management Console and navigate to "Account Lockout Policy" so we can adjust some settings such as lockout duration and threshold of invalid login attempts.
+Launched gpmc.msc on the ``DC-1`` Domain Controller to configure Account Lockout Policy settings, including lockout duration and failed logon thresholds.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 07 21 PM" src="https://github.com/user-attachments/assets/0d730396-b70d-47a5-92af-479c447065ab">
 
-  <br />
-
+<br />
+<p>
+  
+Logged into ``Client-1`` using Domain Administrator credentials and executed gpupdate /force to apply the newly configured Group Policy settings across the workstation.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 12 40 PM" src="https://github.com/user-attachments/assets/0484278e-1fa7-4461-b5d6-4444d5c0b331">
-</p>
-<p>
-Then log into Client-1 as the Domain Admin run the command "gpupdate /force"
-</p>
-<br />
 
+<br />
+<p>
+
+Executed gpresult from an elevated Command Prompt on ``Client-1`` to validate successful application of domain Group Policy configurations.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 14 05 PM" src="https://github.com/user-attachments/assets/30a7f0bc-40a3-48de-9c52-c00a05511f3b">
-</p>
-<p>
-Next we open Command Prompt as an Administrator and run the command "gpresult" to confirm we made our changes.
-</p>
+  
 <br />
+<p>
 
+Verified the configured Account Lockout Policy by attempting multiple failed logon attempts with a domain user account, confirming that the account was locked after exceeding the defined authentication threshold.
 <p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 17 15 PM" src="https://github.com/user-attachments/assets/c436404c-4ff6-4c99-80e1-d6b432f303f3">
-</p>
-<p>
-Now we verify this new lockout policy has taken place by logging into one of our random users with the wrong password and seeing if we get locked out.
-</p>
-<br />
 
+<br />
 <p>
+
+Located the locked domain user account in Active Directory Users and Computers on ``DC-1`` and unlocked the account to restore authentication access.
+</p>
 <img width="2056" alt="Screenshot 2024-10-17 at 3 18 47 PM" src="https://github.com/user-attachments/assets/b5cbfaa5-9fed-4be9-9815-ac046f7b6c91">
-</p>
-<p>
-In DC-1 we will find the user in Active Directory Users and Computers and unlock that account.
-</p>
-<br />
 
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 19 20 PM" src="https://github.com/user-attachments/assets/2532a9f6-40ac-47f5-ac1c-1dd92f5b75ed">
-</p>
-<p>
-We will log into that account again but this time with the right password and verify that our account was unlocked.
-</p>
 <br />
+<p>
+
+Successfully authenticated to the previously locked domain user account using the correct credentials, confirming that the account lockout had been removed and access was restored.
+</p>
+<img width="2056" alt="Screenshot 2024-10-17 at 3 19 20 PM" src="https://github.com/user-attachments/assets/2532a9f6-40ac-47f5-ac1c-1dd92f5b75ed">
+
+<br />
+</p>
 
 ## PowerShell Automation
 
