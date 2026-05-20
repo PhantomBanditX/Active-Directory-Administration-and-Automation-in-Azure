@@ -172,48 +172,14 @@ Successfully authenticated to the previously locked domain user account using th
 <br />
 </p>
 
-## PowerShell Automation
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 38 51 PM" src="https://github.com/user-attachments/assets/73d96625-1fd1-48df-a14b-3955517c2832">
-</p>
-<p>
-Open PowerShell ISE as an administrator on DC-1.
-</p>
-<br />
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 41 33 PM" src="https://github.com/user-attachments/assets/a6142041-808d-4290-bf8a-794e3e10bfc9">
-</p>
-<p>
-Execute a PowerShell script to create 10 thousand user accounts in the _EMPLOYEES OU.
-</p>
-<br />
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 48 45 PM" src="https://github.com/user-attachments/assets/3f738f13-e369-4eb0-9a1e-ca374b4344d5">
-</p>
-<p>
-Test one of the newly created accounts by logging into Client-1 (mydomain.com\[randomly chosen username the script generated])
-</p>
-<br />
-
-## System Monitoring and Log Analysis
-
-<p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 41 53 PM" src="https://github.com/user-attachments/assets/f4b59ba1-f617-4fc8-95ab-6e867c7e8f9f">
-</p>
-<p>
-Log into DC-1 as jane_admin and create the following folders on the C: drive:
-  
+## Secure File Share Configuration
+Log into ``DC-1`` as jane_admin and create the following folders on the C: drive:
 - read-access
 - write-access
 - no-access
 - accounting
-</p>
-<br />
+<img width="2056" alt="Screenshot 2024-10-17 at 3 41 53 PM" src="https://github.com/user-attachments/assets/f4b59ba1-f617-4fc8-95ab-6e867c7e8f9f">
 
-<p>
 Set Permissions on Folders:
 <img width="2056" alt="Screenshot 2024-10-17 at 3 43 10 PM" src="https://github.com/user-attachments/assets/4aa5e84c-badb-4860-aef6-796802ba3f89">
 </p>  
@@ -285,6 +251,35 @@ Add john_employee to the ACCOUNTANTS security group.
 Re-log into Client-1 and confirm access to the accounting folder now works.
 </p>
 <br />
+
+## PowerShell Automation
+
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 2 38 51 PM" src="https://github.com/user-attachments/assets/73d96625-1fd1-48df-a14b-3955517c2832">
+</p>
+<p>
+Open PowerShell ISE as an administrator on DC-1.
+</p>
+<br />
+
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 2 41 33 PM" src="https://github.com/user-attachments/assets/a6142041-808d-4290-bf8a-794e3e10bfc9">
+</p>
+<p>
+Execute a PowerShell script to create 10 thousand user accounts in the _EMPLOYEES OU.
+</p>
+<br />
+
+<p>
+<img width="2056" alt="Screenshot 2024-10-17 at 2 48 45 PM" src="https://github.com/user-attachments/assets/3f738f13-e369-4eb0-9a1e-ca374b4344d5">
+</p>
+<p>
+Test one of the newly created accounts by logging into Client-1 (mydomain.com\[randomly chosen username the script generated])
+</p>
+<br />
+
+## System Monitoring and Log Analysis
+
 
 ## Security and Administrative Controls
 
