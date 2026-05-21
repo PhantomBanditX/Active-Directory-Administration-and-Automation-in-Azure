@@ -41,7 +41,7 @@ This project demonstrates the deployment and administration of an Active Directo
 
   Ensure both virtual machines are configured within the same Resource Group and Virtual Network (VNet).
   <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 12 48 31 PM" src="https://github.com/user-attachments/assets/69be9975-7170-4d72-beac-798495852c97">
+<img width="1918" height="868" alt="Image" src="https://github.com/user-attachments/assets/3c993ab8-2b47-4454-af5e-d3b2714f6bc6" />
 </p>
 <p>
 
