@@ -61,12 +61,12 @@ Validate network connectivity between Client-1 and DC-1 using PowerShell command
 - ping
 - ipconfig /all
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 30 22 PM" src="https://github.com/user-attachments/assets/fdda1c54-a7bb-4042-99ca-5de758d83e0d">
+<img width="1592" height="915" alt="Image" src="https://github.com/user-attachments/assets/5bbc60aa-4154-405e-8fcb-083c8c118dd2" />
 </p>
 
 Run `ipconfig /all` and verify that ``DC-1’s`` private IP address is configured as the active DNS server.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 31 28 PM" src="https://github.com/user-attachments/assets/274fc3fc-b96c-45fd-b1d5-494072552416">
+<img width="1595" height="917" alt="Image" src="https://github.com/user-attachments/assets/08b67a07-e166-4ead-8304-e45d7073b199" />
 
 <br />
 
