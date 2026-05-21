@@ -47,7 +47,7 @@ This project demonstrates the deployment and administration of an Active Directo
 
   Configure a static private IP address for ``DC-1``.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 12 54 33 PM" src="https://github.com/user-attachments/assets/219f8a01-4047-4aa9-819b-bb77b5a2adf2">
+<img width="1858" height="868" alt="Image" src="https://github.com/user-attachments/assets/bce73495-d872-481c-8153-f7177b96ecef" />
 </p>
 <p>
 Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine to apply the changes.
