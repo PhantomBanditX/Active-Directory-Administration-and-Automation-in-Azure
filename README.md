@@ -53,7 +53,7 @@ This project demonstrates the deployment and administration of an Active Directo
 Configure Client-1 to use DC-1 as its DNS server and restart the virtual machine to apply the changes.
 
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 14 36 PM" src="https://github.com/user-attachments/assets/338d0cd6-be64-4ed0-9578-de491d6bb6be">
+<img width="1919" height="864" alt="Image" src="https://github.com/user-attachments/assets/2c6bc8a4-d58b-411b-a180-4da5aa20809c" />
 </p>
 <p>
 Validate network connectivity between Client-1 and DC-1 using PowerShell commands such as:
