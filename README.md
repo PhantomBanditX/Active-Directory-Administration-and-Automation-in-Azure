@@ -77,7 +77,7 @@ After installation, promote ``DC-1`` to a Domain Controller by configuring a new
 
 Restart the server to complete the Active Directory deployment and domain controller configuration.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 47 37 PM" src="https://github.com/user-attachments/assets/37512fdc-d011-4964-a210-29419f4695c0">
+<img width="1500" height="827" alt="Image" src="https://github.com/user-attachments/assets/75b90be4-a8f1-4a10-8db3-e90cb2d8ad19" />
 </p>
 
 Authenticate to the domain using the newly configured administrative account.
