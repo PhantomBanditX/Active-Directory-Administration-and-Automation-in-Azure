@@ -205,7 +205,7 @@ Log into ``DC-1`` as ``jane_admin`` and create the following folders on the C: d
 - `write-access`
 - `no-access`
 - `accounting`
-<img width="2056" alt="Screenshot 2024-10-17 at 3 41 53 PM" src="https://github.com/user-attachments/assets/f4b59ba1-f617-4fc8-95ab-6e867c7e8f9f">
+<img width="1572" height="912" alt="Image" src="https://github.com/user-attachments/assets/23f4bd00-4076-4e6f-9ef3-9b395bce3eee" />
 
 <br />
 
