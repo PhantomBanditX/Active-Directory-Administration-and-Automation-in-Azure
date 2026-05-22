@@ -128,7 +128,7 @@ Authenticate using Domain Administrator credentials to authorize the domain join
 
 Restart ``Client-1`` to apply the domain membership configuration changes.
 
-<img width="2056" alt="Screenshot 2024-10-17 at 2 02 43 PM" src="https://github.com/user-attachments/assets/8b14a2eb-120f-4086-b401-68671b5f46f0">
+<img width="1596" height="917" alt="Image" src="https://github.com/user-attachments/assets/48763e06-f9f4-464d-ba55-768c50273f86" />
 
 <br />
 <p>
