@@ -93,7 +93,7 @@ Create Organizational Units (OUs) for administrative organization, including:
 - _ADMINS
 - _CLIENTS
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 52 29 PM" src="https://github.com/user-attachments/assets/90c55542-6016-4cd3-9c98-e3495f84f72f">
+<img width="1593" height="892" alt="Image" src="https://github.com/user-attachments/assets/188fb48f-6fbd-44c1-9453-0d011d19986f" />
 </p>
 
 Create a dedicated administrative user account named `jane_admin`.
