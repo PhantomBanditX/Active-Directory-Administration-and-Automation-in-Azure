@@ -112,7 +112,7 @@ Assign the account to the ``Domain Admins`` security group.
 <p>
 Authenticate using the administrative account for continued domain administration tasks.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 59 09 PM" src="https://github.com/user-attachments/assets/9158095d-ad1e-4086-9121-e2af5cf86103">
+<img width="1919" height="868" alt="Image" src="https://github.com/user-attachments/assets/0f9ac43f-d040-4fd9-81e5-742c04ee6aef" />
 
 <br />
 
