@@ -136,35 +136,35 @@ Restart ``Client-1`` to apply the domain membership configuration changes.
 ## Account Lockout Policy Configuration  
 Launched gpmc.msc on the ``DC-1`` Domain Controller to configure Account Lockout Policy settings, including lockout duration and failed logon thresholds.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 07 21 PM" src="https://github.com/user-attachments/assets/0d730396-b70d-47a5-92af-479c447065ab">
+<img width="1593" height="932" alt="Image" src="https://github.com/user-attachments/assets/cffc9b6f-11e3-4889-bff9-818bcaaf18dd" />
 
 <br />
 <p>
   
 Logged into ``Client-1`` using Domain Administrator credentials and executed gpupdate /force to apply the newly configured Group Policy settings across the workstation.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 12 40 PM" src="https://github.com/user-attachments/assets/0484278e-1fa7-4461-b5d6-4444d5c0b331">
+<img width="1592" height="917" alt="Image" src="https://github.com/user-attachments/assets/9c015cb0-4e2b-4688-8f27-cdbcc591a708" />
 
 <br />
 <p>
 
-Executed gpresult from an elevated Command Prompt on ``Client-1`` to validate successful application of domain Group Policy configurations.
+Executed ``gpresult /r`` from an elevated Command Prompt on ``Client-1`` to validate successful application of domain Group Policy configurations.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 14 05 PM" src="https://github.com/user-attachments/assets/30a7f0bc-40a3-48de-9c52-c00a05511f3b">
+<img width="1595" height="916" alt="Image" src="https://github.com/user-attachments/assets/f1cfcc85-8255-4a2a-adb5-3b1bb62d34f0" />
   
 <br />
 <p>
 
 Verified the configured Account Lockout Policy by attempting multiple failed logon attempts with a domain user account, confirming that the account was locked after exceeding the defined authentication threshold.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 17 15 PM" src="https://github.com/user-attachments/assets/c436404c-4ff6-4c99-80e1-d6b432f303f3">
+<img width="1919" height="871" alt="Image" src="https://github.com/user-attachments/assets/c6234925-e773-4e58-9921-832d63cdf998" />
 
 <br />
 <p>
 
 Located the locked domain user account in Active Directory Users and Computers on ``DC-1`` and unlocked the account to restore authentication access.
 </p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 18 47 PM" src="https://github.com/user-attachments/assets/b5cbfaa5-9fed-4be9-9815-ac046f7b6c91">
+<img width="1595" height="937" alt="Image" src="https://github.com/user-attachments/assets/26eb5cde-9239-4fe5-8f46-8df5ba57f9c4" />
 
 <br />
 <p>
