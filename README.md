@@ -106,7 +106,7 @@ Create a dedicated administrative user account named `jane_admin`.
   
 Assign the account to the ``Domain Admins`` security group.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 56 41 PM" src="https://github.com/user-attachments/assets/b945aa4d-879b-4b71-9061-88b14566e20f">
+<img width="1592" height="917" alt="Image" src="https://github.com/user-attachments/assets/6c55e4ce-b705-457b-880a-08554f430eb0" />
 <br />
 
 <p>
