@@ -82,7 +82,7 @@ Restart the server to complete the Active Directory deployment and domain contro
 
 Authenticate to the domain using the newly configured administrative account.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 1 45 44 PM" src="https://github.com/user-attachments/assets/a4d48875-7934-438e-b5b3-bcfa29d7c484">
+<img width="1919" height="868" alt="Image" src="https://github.com/user-attachments/assets/b4f743ef-b2d6-45ea-919d-79603c01231a" />
 
 <br />
 
