@@ -119,7 +119,7 @@ Authenticate using the administrative account for continued domain administratio
 ## Group Policy Administration
 Navigate to the ``Client-1`` system settings and open “Rename this PC (advanced)” to begin the Active Directory domain join process.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 01 16 PM" src="https://github.com/user-attachments/assets/f7ad8cc4-cbb7-4c41-b2d5-7bcd7b2e3c37">
+<img width="1596" height="912" alt="Image" src="https://github.com/user-attachments/assets/7726dcfd-e610-4f6a-a4ee-7595c0d7b7cb" />
 <br />
   
 Configure ``Client-1`` to join the Active Directory domain using the domain name configured during the Active Directory deployment.
