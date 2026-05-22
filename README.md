@@ -171,7 +171,7 @@ Located the locked domain user account in Active Directory Users and Computers o
 
 Verified restored authentication access after unlocking the domain account.
 </p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 19 20 PM" src="https://github.com/user-attachments/assets/2532a9f6-40ac-47f5-ac1c-1dd92f5b75ed">
+<img width="1737" height="892" alt="Image" src="https://github.com/user-attachments/assets/6437bfeb-3a96-4135-9dc5-0ccb862f00cc" />
 
 <br />
 </p>
@@ -184,9 +184,9 @@ Launch PowerShell ISE with administrative privileges on the `DC-1` Domain Contro
 <br />
 <p>
 
-Execute a PowerShell automation script to provision 10,000 domain user accounts within the `_EMPLOYEES` Organizational Unit. 
+Execute a PowerShell automation script to provision 1,000 domain user accounts within the `_EMPLOYEES` Organizational Unit. 
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 2 41 33 PM" src="https://github.com/user-attachments/assets/a6142041-808d-4290-bf8a-794e3e10bfc9">
+<img width="1205" height="811" alt="Image" src="https://github.com/user-attachments/assets/59511a8d-65a4-4bff-b149-cc73287f449e" />
 
 <br />
 <p>
