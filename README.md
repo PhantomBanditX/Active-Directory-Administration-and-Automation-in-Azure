@@ -299,8 +299,13 @@ Analyze security logs for:
 
 Use Event IDs such as:
 
-- `4624` — Successful Logon
-- `4625` — Failed Logon
+| Event ID | Description |
+|:--------:|:-----------:|
+| 4624 | Successful Logon |
+| 4625 | Failed Logon |
+| 4740 | Account Lockout |
+| 4728 | User Added to Security Group |
+
 
 Filter and analyze specific authentication events to support troubleshooting and security monitoring activities.
 <p>
