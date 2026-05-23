@@ -284,7 +284,7 @@ Re-log into `Client-1` and confirm access to the accounting folder now works.
 ## System Monitoring and Log Analysis
 Launch Event Viewer on `Client-1` by opening `eventvwr.msc` with administrative privileges to monitor authentication activity and security auditing logs.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 27 14 PM" src="https://github.com/user-attachments/assets/b90bfe3e-9f1a-49f6-8515-5ca484a7e074">
+<img width="1572" height="916" alt="Image" src="https://github.com/user-attachments/assets/73dddb57-83d5-488d-9de3-0929b117f1d8" />
 
 <br />
 <p>
@@ -304,7 +304,7 @@ Use Event IDs such as:
 
 Filter and analyze specific authentication events to support troubleshooting and security monitoring activities.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 28 31 PM" src="https://github.com/user-attachments/assets/0c144f09-1ade-49fe-b1d2-ed3c715fa07e">
+<img width="1571" height="857" alt="Image" src="https://github.com/user-attachments/assets/ac604f49-e8d4-4782-89fa-bd8e3bbbb9d4" />
 
 <br />
 <p>
