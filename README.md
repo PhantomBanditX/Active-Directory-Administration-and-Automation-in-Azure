@@ -241,7 +241,7 @@ Test access permissions for each shared folder:
 
 On `DC-1`, open **Active Directory Users and Computers (ADUC)** and create a security group named `ACCOUNTANTS` for managing access permissions to the accounting shared folder.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 50 15 PM" src="https://github.com/user-attachments/assets/4eb4eb5f-f206-4048-a330-d85c3f0ce178">
+<img width="1568" height="916" alt="Image" src="https://github.com/user-attachments/assets/7f62a9c4-744b-44bb-b596-5912464c4fa3" />
 
 <br />
 <p>
