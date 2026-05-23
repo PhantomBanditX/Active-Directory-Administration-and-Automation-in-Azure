@@ -248,28 +248,28 @@ On `DC-1`, open **Active Directory Users and Computers (ADUC)** and create a sec
 
 Assign `Read/Write` NTFS and share permissions to the `ACCOUNTANTS` security group for the `accounting` shared folder to provide controlled access for authorized accounting users.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 51 42 PM" src="https://github.com/user-attachments/assets/f2993713-dd08-4c26-804d-ffebfe3ca24d">
+<img width="1570" height="913" alt="Image" src="https://github.com/user-attachments/assets/3ac57ecb-5519-4c3b-aac8-5525c2c04126" />
 
 <br />
 <p>
 
-On `Client-1`, attempt to access the `accounting` shared folder using the `john_employee` account and verify that access is denied due to insufficient permissions.
+On `Client-1`, attempt to access the `accounting` shared folder using the `aturner` account and verify that access is denied due to insufficient permissions.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 52 33 PM" src="https://github.com/user-attachments/assets/c51f377a-8ae6-4613-88b0-8753c8cbc57d">
+<img width="1573" height="913" alt="Image" src="https://github.com/user-attachments/assets/140d6775-61fe-48a4-ae7a-aab9e3e0c2f9" />
 
 <br />
 <p>
 
-Add `john_employee` to the `ACCOUNTANTS` security group.
+Add `aturner` to the `ACCOUNTANTS` security group.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 53 05 PM" src="https://github.com/user-attachments/assets/385504ce-02b4-47f0-8dc9-8d5253fecdcb">
+<img width="1567" height="912" alt="Image" src="https://github.com/user-attachments/assets/d826ebc1-c4e1-48d3-ae7f-877765010c92" />
 
 <br />
 <p>
 
 Re-log into `Client-1` and confirm access to the accounting folder now works. 
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 54 47 PM" src="https://github.com/user-attachments/assets/c7f94971-d415-485b-9612-c3ff0d24133b">
+<img width="1576" height="917" alt="Image" src="https://github.com/user-attachments/assets/f29a1c16-49e5-4497-ba9e-d1669004ed43" />
 
 <br />
 <p>
