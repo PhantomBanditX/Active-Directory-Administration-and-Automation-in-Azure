@@ -217,14 +217,14 @@ Set Permissions on Folders:
 - `For write-access` — assign Domain Users the Read/Write permission.
 
 - `For no-access` — assign Domain Admins the Read/Write permission.
-<img width="2056" alt="Screenshot 2024-10-17 at 3 43 10 PM" src="https://github.com/user-attachments/assets/4aa5e84c-badb-4860-aef6-796802ba3f89">
+<img width="1572" height="913" alt="Image" src="https://github.com/user-attachments/assets/2f7a8fb9-7115-4c1a-962d-8d3bb6074d06" />
 
 <br />
 <p>
 
 On `Client-1`, log in as a standard domain user (e.g., `MYDOMAIN\john_employee`), open the Run dialog, and enter `\\DC-1` to access the shared folders configured on the domain controller.
 <p>
-<img width="2056" alt="Screenshot 2024-10-17 at 3 45 59 PM" src="https://github.com/user-attachments/assets/bf446b8b-c257-462f-845b-006ba4ac11fa">
+<img width="1568" height="916" alt="Image" src="https://github.com/user-attachments/assets/9c6c54e1-4d6f-4977-87a2-a91fec94533a" />
 
 <br />
 <p>
@@ -234,7 +234,7 @@ Test access permissions for each shared folder:
 - `read-access` — Verify the user can open files but cannot edit or delete them.
 - `write-access` — Verify the user can create, modify, and delete files.
 - `no-access` — Verify the user receives an access denied message.
-<img width="2056" alt="Screenshot 2024-10-17 at 3 47 53 PM" src="https://github.com/user-attachments/assets/cc69b911-e144-4ec3-854d-8430c913c06d">
+<img width="1573" height="913" alt="Image" src="https://github.com/user-attachments/assets/5365b4cb-0616-4444-a8f7-2144886a0349" />
 
 <br />
 <p>
