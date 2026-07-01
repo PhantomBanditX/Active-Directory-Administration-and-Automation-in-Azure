@@ -1,4 +1,4 @@
-# Azure Active Directory Administration and Automation Lab 
+# Azure Active Directory Administration and Automation 
 
 <p align="center">
 <img width="900" height="540" alt="Image" src="https://github.com/user-attachments/assets/75e16b51-9a24-41b6-90a0-f4eba501282d" />
