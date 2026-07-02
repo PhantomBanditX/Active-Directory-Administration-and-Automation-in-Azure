@@ -1,7 +1,7 @@
 # Active Directory Administration and Automation 
 
 <p align="center">
-<img width="900" height="540" alt="Image" src="https://github.com/user-attachments/assets/75e16b51-9a24-41b6-90a0-f4eba501282d" />
+<img width="900" height="540" alt="Image" src="https://github.com/user-attachments/assets/6c625096-41d1-4dcc-83df-067edd05752a" />
 </p>
 
 <p align="center"> <h1>Enterprise Active Directory management in Azure using PowerShell and Group Policy</h1> </p>
